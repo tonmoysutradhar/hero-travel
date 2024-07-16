@@ -241,7 +241,7 @@ main {
   margin-right: 3.5rem;
 }
 .discounts-card-padding {
-  padding: 3.125rem
+  padding: 3.125rem;
 }
 .discounts-details {
   display: flex;
@@ -279,8 +279,12 @@ main {
 }
 
 /* see-all button  */
-.see-all{
+.see-all {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 6.25rem;
+}
+.bold-text {
+  font-weight: 700;
+  line-height: 26px;
 }
