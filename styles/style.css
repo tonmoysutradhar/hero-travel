@@ -7,7 +7,7 @@ body {
 
 /* shared style  */
 main {
-  max-width: 1140px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 .primary-color {
@@ -192,6 +192,7 @@ main {
 /* why choose us style  */
 .why-choose-us {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .choose-us-row-1 {
   display: grid;
@@ -218,4 +219,68 @@ main {
 .card-3 {
   max-width: 558px;
   margin: 0 auto;
+}
+
+/* Deals & Discounts style  */
+.deals-discounts-card {
+  max-width: 1170px;
+  min-height: 500px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("../Images/group-39.png");
+  margin-bottom: 1.5rem;
+}
+.discounts-card {
+  max-width: 579px;
+  min-height: 389px;
+  border: 2px solid white;
+  border-radius: 1rem;
+  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.8);
+  margin-right: 3.5rem;
+}
+.discounts-card-padding {
+  padding: 3.125rem
+}
+.discounts-details {
+  display: flex;
+  justify-content: space-between;
+}
+.discount-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 1.5rem 0 1rem 0;
+}
+.discount-price {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 1rem 0 1.5rem 0;
+}
+.book-btn {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 14px 24px;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  color: white;
+  border: none;
+}
+.deals-discounts-card-2 {
+  max-width: 1170px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  background-image: url("../Images/group-40.png");
+  margin-bottom: 1.5rem;
+}
+.discounts-card-2 {
+  margin-left: 3.5rem;
+}
+
+/* see-all button  */
+.see-all{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 6.25rem;
 }
