@@ -366,7 +366,7 @@ main {
   display: none;
 }
 
-/* responsive design  */
+/* responsive design  for mobile */
 @media screen and (max-width: 576px) {
   .logo img {
     width: 2rem;
@@ -459,6 +459,58 @@ main {
   .newsletter {
     flex-direction: column;
     margin-bottom: 40px;
+  }
+  .newsletter-img {
+    width: 100%;
+  }
+  .newsletter-img img {
+    width: 100%;
+  }
+}
+
+/* responsive design  for medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .nav-options {
+    display: none;
+  }
+  .ham-burger {
+    display: block;
+  }
+  .banner {
+    padding: 3rem;
+    background-position: center;
+    margin-bottom: 50px;
+  }
+  .banner-title {
+    font-size: 2.5rem;
+  }
+  .banner-input {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .popular-tours {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .popular-tours-img {
+    width: 100%;
+  }
+  .popular-tours-img img {
+    width: 100%;
+  }
+  .row-1,
+  .row-2,
+  .row-3,
+  .choose-us-row-1 {
+    grid-template-columns: 1fr;
+  }
+  .why-choose-us {
+    margin: 50px 0 50px 0;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
   }
   .newsletter-img {
     width: 100%;
