@@ -233,7 +233,7 @@ main {
 }
 .discounts-card {
   max-width: 579px;
-  min-height: 389px;
+  /* min-height: 389px; */
   border: 2px solid white;
   border-radius: 1rem;
   backdrop-filter: blur(4px);
@@ -293,7 +293,6 @@ main {
   display: flex;
   gap: 1.5rem;
   margin-bottom: 100px;
-  
 }
 .newsletter-text {
   padding: 2.5rem;
@@ -303,8 +302,8 @@ main {
 }
 .newsletter-text h4 {
   font-size: 1.5rem;
-font-weight: 800;
-margin: 0;
+  font-weight: 800;
+  margin: 0;
 }
 .newsletter-text p {
   margin-top: 1rem;
@@ -339,7 +338,6 @@ margin: 0;
   margin: 0;
 }
 
-
 /* footer style  */
 .footer-container {
   background: rgba(19, 19, 24, 0.05);
@@ -348,7 +346,7 @@ margin: 0;
 .footer-logo {
   justify-content: center;
 }
-.footer-content p{
+.footer-content p {
   max-width: 769px;
   text-align: center;
   margin: 0 auto;
@@ -361,6 +359,111 @@ margin: 0;
   margin: 2rem 0 3rem 0;
 }
 .footer-content hr {
-  width: 872px;
+  max-width: 872px;
   margin-bottom: 3rem;
+}
+.ham-burger {
+  display: none;
+}
+
+/* responsive design  */
+@media screen and (max-width: 576px) {
+  .logo img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .logo-text {
+    font-size: 1.5rem;
+  }
+  .nav-options {
+    display: none;
+  }
+  .ham-burger {
+    display: block;
+  }
+  .banner {
+    padding: 12px 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+  }
+  .banner-title {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .banner-input {
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .banner-input input,
+  .banner-input select,
+  .banner-input button {
+    width: 100%;
+  }
+  .popular-tours {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .popular-tours-img {
+    width: 100%;
+  }
+  .popular-tours-img img {
+    width: 100%;
+  }
+  .destination-details p {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .row-1,
+  .row-2,
+  .row-3,
+  .choose-us-row-1 {
+    grid-template-columns: 1fr;
+  }
+  .why-choose-us {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .choose-card {
+    margin-bottom: 0;
+  }
+  .discounts-card {
+    max-width: 300px;
+    margin: 0 auto;
+    height: 300px;
+  }
+  .discounts-card-padding {
+    padding: 1rem;
+  }
+  .discounts-details {
+    font-size: 12px;
+  }
+  .discount-title {
+    margin: 8px 0 8px 0;
+  }
+  .amet {
+    line-height: 20px;
+  }
+  .discount-price {
+    font-size: 1rem;
+    margin: 0.8rem 0 1rem 0;
+  }
+  .see-all {
+    margin: 40px 0 40px 0;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .newsletter-img {
+    width: 100%;
+  }
+  .newsletter-img img {
+    width: 100%;
+  }
 }
